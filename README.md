@@ -24,7 +24,7 @@ When the retraining is done, you will see a folder named "tmp" with the output r
 
 Testing the Retrained Model
 ===========
-python ts_robot_test.py --graph=./tmp/output_graph.pb --labels=./tmp/output_labels.txt --input_layer=Placeholder --output_layer=final_result --image=./signs3/test_left01.jpg
+python tf_robot_test.py --graph=./tmp/output_graph.pb --labels=./tmp/output_labels.txt --input_layer=Placeholder --output_layer=final_result --image=./signs3/test_left01.jpg
 
 General Notes
 ===========
