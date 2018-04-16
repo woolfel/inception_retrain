@@ -12,9 +12,11 @@ This project demonstrates how to retrain Google's Inception V3 model to recogniz
 Installation on Windows 10
 ===========
 
-1. Download Python 64big for windows. Do not use 32bit, since Tensorflow only works on 64bit. If you get an error can't install, double check your python is 64bit.
-2. clone this repository
-3. Run "python retrain_inception.py --image_dir=./signs3"
+1. Download Python 64bit for windows. Do not use 32bit! Tensorflow only works on 64bit. If you get an error can't install, double check your python is 64bit.
+2. Open a powershell
+3. Run pip install tensorflow
+4. clone this repository
+5. Run "python retrain_inception.py --image_dir=./signs3"
 
 When the retraining is done, you will see a folder named "tmp" with the output results.
 
